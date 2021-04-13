@@ -12,11 +12,11 @@ bot.on('ready', () => {
     let args = message.content.slice(prefix.length).split(' '); 
 
 
-    if(message.content === "+fennec") {
+    if(message.content === "+3'") {
       message.delete()
       const embed = new Discord.MessageEmbed()
       .setTitle("Rôles ³ ")
-      .setDescription('Veuillez choisir les rôles ci-dessous qui vous correspondent\n\n - <@&831210291400409141>\n\n- <@&831210213406670899>')
+      .setDescription('Veuillez choisir les rôles ci-dessous qui vous correspondent\n\n - <@831276716830883850>\n\n- <@&831276783521234994>')
       .setImage('https://i.imgur.com/OTdChQw.gif')
       message.channel.send({embed: embed}).then(embedMessage => {
       embedMessage.react("<:17:831274892744720415>");
@@ -150,7 +150,7 @@ bot.on('ready', () => {
       message.channel.send(embed);
     }
 
-    if(message.content ==="++dddddd") {
+    if(message.content ==="+1") {
       message.delete()
       const embed = new Discord.MessageEmbed()
           .setTitle("Rôles ¹")
@@ -227,7 +227,7 @@ bot.on('ready', () => {
  //
 
 
-    if(message.content ==="++sss") {
+    if(message.content ==="+s") {
       message.delete()
       const embed = new Discord.MessageEmbed()
           .setTitle("Rôles ²")
