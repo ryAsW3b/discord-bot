@@ -1,0 +1,17 @@
+{
+  "name": "oklm",
+  "version": "1.0.0",
+  "description": "bot-discord",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  },
+  "devDependencies": {},
+  
+  "scripts": {
+  "start":"node index .js"
+  },
+  "author": "ryAs",
+  "license": "ISC"
+}
+
